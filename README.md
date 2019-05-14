@@ -12,6 +12,9 @@
 
 > A comment in a recipe is not a make comment; it will be passed to the shell as-is. Whether the shell treats it as a comment or not depends on your shell.
 
+## How make Reads a Makefile
+- https://www.gnu.org/software/make/manual/html_node/Reading-Makefiles.html#Reading-Makefiles
+
 ## Sub shell for each receipe:
 - https://www.gnu.org/software/make/manual/html_node/Execution.html#Execution
 
