@@ -23,3 +23,12 @@ Debugging
 ```
 make -n
 ```
+
+
+Functions
+`Functions allow you to do text processing in the makefile to compute the files to operate on or the commands to use in recipes.`
+
+- https://www.gnu.org/software/make/manual/html_node/Functions.html#Functions
+- `shell` : https://www.gnu.org/software/make/manual/html_node/Shell-Function.html#Shell-Function
+
+
