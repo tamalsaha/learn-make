@@ -24,6 +24,9 @@
 make -n
 ```
 
+## Variables
+- https://www.gnu.org/software/make/manual/html_node/Flavors.html#Flavors
+
 ## Functions
 `Functions allow you to do text processing in the makefile to compute the files to operate on or the commands to use in recipes.`
 
