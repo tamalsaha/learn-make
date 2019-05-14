@@ -30,6 +30,9 @@ make -n
 ## Variables
 - https://www.gnu.org/software/make/manual/html_node/Flavors.html#Flavors
 - https://www.gnu.org/software/make/manual/html_node/Environment.html#Environment
+```
+var := $(shell find . -name "*.c")
+```
 
 ## Functions
 `Functions allow you to do text processing in the makefile to compute the files to operate on or the commands to use in recipes.`
