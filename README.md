@@ -33,6 +33,8 @@ make -n
 ```
 var := $(shell find . -name "*.c")
 ```
+- weird: https://www.gnu.org/software/make/manual/html_node/Appending.html#Appending
+
 
 ## Functions
 `Functions allow you to do text processing in the makefile to compute the files to operate on or the commands to use in recipes.`
