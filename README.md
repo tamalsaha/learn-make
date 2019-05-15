@@ -42,4 +42,6 @@ var := $(shell find . -name "*.c")
 - https://www.gnu.org/software/make/manual/html_node/Functions.html#Functions
 - `shell` : https://www.gnu.org/software/make/manual/html_node/Shell-Function.html#Shell-Function
 
+## Recursive calls of Make
+- https://www.gnu.org/software/make/manual/html_node/MAKE-Variable.html#MAKE-Variable
 
