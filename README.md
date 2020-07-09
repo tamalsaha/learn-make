@@ -35,6 +35,39 @@ var := $(shell find . -name "*.c")
 ```
 - weird: https://www.gnu.org/software/make/manual/html_node/Appending.html#Appending
 
+### What is the difference between the GNU Makefile variable assignments =, ?=, := and +=?
+
+- https://stackoverflow.com/a/448939
+
+### Lazy Set
+
+    VARIABLE = value
+
+Normal setting of a variable, but any other variables mentioned with the `value` field are recursively expanded with their value at the point at which the variable is used, not the one it had when it was declared
+
+### Immediate Set
+
+    VARIABLE := value
+
+Setting of a variable with simple expansion of the values inside - values within it are expanded at declaration time.
+
+### Lazy Set If Absent
+
+    VARIABLE ?= value
+
+Setting of a variable only if it doesn't have a value. `value` is always evaluated when `VARIABLE` is accessed. It is equivalent to
+
+    ifeq ($(origin FOO), undefined)
+      FOO = bar
+    endif
+
+See the [documentation](https://www.gnu.org/software/make/manual/html_node/Flavors.html#Flavors) for more details.
+
+
+### Append
+    VARIABLE += value
+
+Appending the supplied value to the existing value (or setting to that value if the variable didn't exist)
 
 ## Functions
 `Functions allow you to do text processing in the makefile to compute the files to operate on or the commands to use in recipes.`
