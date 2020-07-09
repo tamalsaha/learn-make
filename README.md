@@ -38,6 +38,7 @@ var := $(shell find . -name "*.c")
 ### What is the difference between the GNU Makefile variable assignments =, ?=, := and +=?
 
 - https://stackoverflow.com/a/448939
+- https://stackoverflow.com/q/2826029
 
 ### Lazy Set
 
