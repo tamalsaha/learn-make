@@ -79,3 +79,10 @@ Appending the supplied value to the existing value (or setting to that value if 
 ## Recursive calls of Make
 - https://www.gnu.org/software/make/manual/html_node/MAKE-Variable.html#MAKE-Variable
 
+### How do you get the list of targets in a makefile?
+
+- https://stackoverflow.com/questions/4219255/how-do-you-get-the-list-of-targets-in-a-makefile
+
+```
+make -pRrq -f Makefile
+```
