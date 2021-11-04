@@ -86,3 +86,11 @@ Appending the supplied value to the existing value (or setting to that value if 
 ```
 make -pRrq -f Makefile
 ```
+
+### call & eval
+
+- https://stackoverflow.com/a/29098246
+- https://gist.github.com/weshouman/f44f330227972073371e1baa510c0d37
+- https://www.gnu.org/software/make/manual/html_node/Multi_002dLine.html
+
+
