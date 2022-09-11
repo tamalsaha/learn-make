@@ -40,6 +40,10 @@ var := $(shell find . -name "*.c")
 - https://stackoverflow.com/a/448939
 - https://stackoverflow.com/q/2826029
 
+### What do @, - and + do as prefixes to recipe lines in Make?
+
+- https://stackoverflow.com/a/3477400
+
 ### Lazy Set
 
     VARIABLE = value
